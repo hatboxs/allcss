@@ -1,0 +1,156 @@
+/* http:hat-mars.blogspot.com */
+#bigslide{
+    margin: 0px 0px 0px 0px;
+    padding:0px ;
+    height:307px;
+    background: url(#) no-repeat bottom;
+    overflow: hidden;
+    position: relative;
+    }
+#bigslide dd img {opacity:.9}
+#bigslide dd img:hover {opacity:.5}
+#slidedeck_frame {
+                width: 100%;
+                height: 305px;
+ }    
+.skin-slidedeck {
+        position: relative;
+	padding: 5px 5px ;
+   	background: #222;
+        border-left: 15px solid #333;
+        border-right: 15px solid #333;
+	box-shadow:inset 0 0 10px #222;
+	-moz-box-shadow:inset 0 0 10px #222;
+	-webkit-box-shadow:inset 0 0 10px #222;
+}
+.skin-slidedeck dl.slidedeck {
+    position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+    padding: 0;
+}
+
+.skin-slidedeck dl.slidedeck > dd {
+        position: relative;
+	height: 302px;
+	padding: 0px 0px;
+        margin: 0;
+	border-right: 5px solid #222;
+	background: #333;   
+    overflow: hidden;
+}
+
+.skin-slidedeck dl.slidedeck > dt {
+    position: relative;
+	cursor: pointer;
+	height: 43px;
+	line-height: 38px;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: "Futura Bold", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #eee;
+    margin: 0;
+   	background:#333; url(http://4.bp.blogspot.com/_M_YCe5AWy0o/TM4okm2lUbI/AAAAAAAAAc4/14eYkrodgLE/s1600/spine.png) repeat-x;
+padding: 0;
+}
+.skin-slidedeck dl.slidedeck dt.spine:hover {
+	color: #ddd;
+	background-color:#000 url(http://2.bp.blogspot.com/_M_YCe5AWy0o/TM4rVPG11vI/AAAAAAAAAdA/WYkG0JDwOgE/s1600/spine_hover.png) repeat-x;
+}
+/*TITLE AKTIF HOVER*/
+.skin-slidedeck dl.slidedeck dt.spine.active,
+.skin-slidedeck dl.slidedeck dt.spine.active:hover {
+	cursor: default;
+	color: #ddd;
+	background-position: bottom left;
+	background:#333;
+}
+.skin-slidedeck dl.slidedeck dt.spine .index {
+	margin-bottom: 2px;
+    font-size: 24px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	box-shadow:0 5px 15px rgba(0,0,0,0.4)
+}
+.skin-slidedeck dl.slidedeck dt.spine.active .index { margin-bottom: 0; }
+/*TITLE AKTIF*/
+.skin-slidedeck dl.slidedeck dt.spine:hover .index { color: #000000;background:rgba(102,0,0,0.4);box-shadow:0 5px 15px  }
+/*NOMOR AKTIF*/
+.skin-slidedeck dl.slidedeck dt.spine.active .index { color: #ddd;background:rgba(102,0,0,0.4);box-shadow:0 5px 15px}
+.skin-slidedeck dl.slidedeck .activeCorner {
+	margin-left: -2px;
+	background-image: url('#');
+	width: 12px;
+	height: 25px;
+}
+
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.skin-slidedeck dl.slidedeck ul.verticalSlideNav {
+	height: 70px;
+	width: 25px;
+	background: none;
+	position: relative;
+	overflow: hidden;
+	padding: 15px 0 0;
+  	margin: 0;
+        top: 0;
+  	left: 125px;
+	-webkit-transform: rotate(90deg);
+	-webkit-transform-origin: -7px 0;
+	-moz-transform: rotate(90deg);
+	-moz-transform-origin: -7px 0;
+	-o-transform: rotate(90deg);
+	-o-transform-origin: -7px 0;
+}
+
+.skin-slidedeck dl.slidedeck ul.verticalSlideNav li {
+	position: relative;
+    width: 25px;
+    height: 12px;
+    line-height: 12px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+    clear: left;
+}
+
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li.arrow { display: none; }
+
+
+.skin-slidedeck dl.slidedeck ul.verticalSlideNav li a {
+	position: relative;
+	display: block;
+	padding: 12px 0 0 0;
+	margin: 0;
+	width: 25px;
+	height: 0;
+	overflow: hidden;
+        line-height: 12px;
+	background: url('vertical-nav.png') 0 0 no-repeat;
+}
+
+.skin-slidedeck dl.slidedeck ul.verticalSlideNav li.active a {
+    background-position: 0 -24px;
+}
+
+.skin-slidedeck dl.slidedeck dt.active ul.verticalSlideNav li.active a {
+	background-position: 0 -12px;
+}
+
+
+dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
+    opacity: 0.75;
+    -moz-opacity: 0.75;
+    -webkit-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    -ms-filter: "Alpha(opacity=75)";
+    filter: Alpha(opacity=75); 
+}
