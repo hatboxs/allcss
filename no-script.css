@@ -1,0 +1,96 @@
+section#logo-home div.text,
+section#logo-home div.logo,
+section#logo-home div.arrow,
+section#logo-home div.freedom,
+article#grid-about .gambar-p div.title,
+article#grid-about img.why,
+article#grid-about .judul1,
+article#grid-about .text-p p,
+article#grid-about .photo,
+article#grid-contact div.title,
+article#grid-contact .judul1,
+article#grid-contact .text-p p,
+article#grid-archive .gambar-p div.title,
+article#grid-archive .judul1,
+article#grid-archive .text-p p,
+article#grid-gallery .gambar-p div.title,
+article#grid-gallery .judul1,
+article#grid-gallery .text-p p,
+article#grid-video div.title,
+article#grid-video .judul1,
+article#grid-video .text-p p
+iframe{
+    display: block!important;
+}
+.item .gambar .templatesButton{
+display:inline!Important;
+
+}
+.item .gambar .templatesButton li{
+width:50%!Important;
+
+}
+.item .gambar .templatesButton li a{
+width:97%!Important;
+margin:20px 0!Important
+
+}
+.item .gambar .templatesButton li a:before{
+top:28px!important;
+}
+.item .gambar .templatesButton li a:after{
+top:40px!important;
+}
+.fotter-fixed {
+    position: fixed;
+    bottom: 0!important;
+}
+div#loading,.loading{
+    display:none!Important;
+}
+
+.last.share:before,
+.last.tag:before{
+content:"Enable javascript";
+margin:16px 0 0 0;
+float:left;
+}
+#article #slideout-holder,
+#article #nav {
+    left: 26px!important;
+}
+
+.casing {
+    -webkit-animation: opacity 1.5s;
+    -moz-animation: opacity 1.5s;
+    -ms-animation: opacity 1.5s;
+    -o-animation: opacity 1.5s;
+    animation: opacity 1.5s;
+}
+
+section#logo-home div {
+    -webkit-animation: opacity 3s;
+    -moz-animation: opacity 3s;
+    -ms-animation: opacity 3s;
+    -o-animation: opacity 3s;
+    animation: opacity 3s;
+}
+
+#box:target {
+    top: 8%;
+    position: fixed;
+}
+
+#bottom-nav:target {
+    display: block!important;
+    position: fixed;
+    bottom: 0;
+}
+
+#slideout-holder,#nav {
+    -webkit-animation: toLeft 2.9s ease-in-out;
+    -moz-animation: toLeft 2.9s ease-in-out;
+    -ms-animation: toLeft 2.9s ease-in-out;
+    -o-animation: toLeft 2.9s ease-in-out;
+    animation: toLeft 2.9s ease-in-out;
+}
